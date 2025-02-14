@@ -16,7 +16,7 @@ class PayPalController extends Controller
         try {
             $headers = [
                 'Content-Type'  => 'application/x-www-form-urlencoded',
-                'Authorization' => 'Basic ' . base64_encode('AWsblEkJhuCD3KKCtPZq6J6FAK3lwqlSqDY08g26qarDGyPdKKK9Pll1mJK7nATl-VYI0PN9rDu7U-de' . ':' . 'EL3UtED26xhabRMgoXqw9a1B_XUiS4qyPixUSTqlUj9xZBrBN6niyzcTn-z5eYBBycjKou349Tx2zWVT'),
+                'Authorization' => 'Basic ' . base64_encode('AXe8IX9mXy0sA2KcqbBgyDzUiQVRl4vT4M1BwOCm3mkzLDpqryK2zF1jFB9h5_6uiQzaA6UHyGXE9ZoZ' . ':' . 'EBIHjAJwTOS1QmzHsWOaDlD-El5rpUBY62bsMMHh0L_jxFpiLF3LjpWYWuGoNH95GIcvix_Q9lqnCsho'),
             ];
 
             $response = Http::withHeaders($headers)
